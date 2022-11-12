@@ -21,4 +21,4 @@ class Solution:
         for r in range(ROWS):
             for c in range(COLS):
                 area = max(area, dfs(r, c))
-
+        return area
